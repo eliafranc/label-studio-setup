@@ -1,0 +1,7 @@
+<View>
+    <Labels name="videoLabels" toName="video" allowEmpty="false">
+        <Label value="drone" background="#FFA39E"/>
+    </Labels>
+    <Video name="video" value="$video_url" framerate="$fps"/>
+    <VideoRectangle name="box" toName="video"/>
+</View>

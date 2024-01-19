@@ -1,0 +1,10 @@
+<View>
+  <Header value="Video Subsequence Labels"/>
+  <Video name="video" value="$video_url" sync="audio" frameRate="$fps"/>
+  <View style="display:flex;align-items:start;gap:8px;flex-direction:column">
+    <Audio name="audio" value="$audio_url" sync="video" speed="false"/>
+      <Labels name="tricks" toName="audio" choice="multiple" showInline="true">
+        <Label value="sequence" background="#FFA39E"/>
+      </Labels>
+  </View>
+</View>
